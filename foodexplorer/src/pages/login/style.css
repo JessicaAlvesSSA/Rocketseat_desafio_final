@@ -1,0 +1,12 @@
+.login, .register {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 56px;
+    min-height: 100vh;
+    gap: 73px;
+}
+
+button {
+    font-weight: 400;
+}

@@ -1,0 +1,106 @@
+.dish {
+    padding: 2.2rem 3.5rem;
+    text-align: center;
+}
+
+.breadcrumb {
+    text-align: left;
+}
+
+.dish-example {
+    width: 264px;
+    height: 264px;
+    margin: 1rem auto;
+}
+
+.dish-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.dish-details>h1 {
+    font-size: 1.8rem;
+}
+
+.ingredients {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.ingredients>span {
+    padding: .25rem .5rem;
+    background-color: #192227;
+    color: #FFF;
+    border-radius: 5px;
+}
+
+.dish-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+
+.dish-qtt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 14px;
+}
+
+.dish-qtt>button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+button:focus,
+button:focus-visible {
+    outline: none !important;
+}
+
+.dish-qtt>button>img {
+    width: 24px;
+}
+
+.dish-qtt>input {
+    text-align: center;
+    font-size: 1.4rem;
+    width: 24px;
+    background-color: transparent;
+    border: none;
+    color: #FFF;
+}
+
+.dish-add-to-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .3rem;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: .6rem;
+    border-radius: 5px;
+}
+
+.dish-add-to-cart>img {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: .2rem;
+}
+
+.dish-add-to-cart.editar {
+    font-size: .9rem;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}

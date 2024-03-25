@@ -1,0 +1,43 @@
+.home {
+    padding: 2.8rem 1rem 2.8rem 1.5rem;
+}
+
+.home-section {
+    color: #E1E1E6;
+    font-size: 18px;
+    margin: 1rem auto;
+}
+
+.home-banner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(180deg, #091E26 0%, #00131C 100%);
+    padding: 2.2rem 1.2rem 1.2rem 150px;
+    border-radius: 3px;
+}
+
+.home-banner>img {
+    position: absolute;
+    left: -24px;
+    bottom: 0;
+}
+
+.banner-text {
+    color: #E1E1E6;
+}
+
+.banner-text>h2 {
+    font-size: 18px;
+}
+
+.banner-text>h2,
+.banner-text>p {
+    margin: 0;
+}
+
+.banner-text>p {
+    font-weight: 400;
+    font-size: 12px;
+    color: #E1E1E6;
+}

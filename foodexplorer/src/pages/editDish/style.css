@@ -1,0 +1,20 @@
+.edit-dish {
+    padding: .6rem 2rem 3.3rem;
+}
+
+a#return{
+    font-size: 1rem;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 500;
+    margin: 1.3rem auto 2.25rem;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}

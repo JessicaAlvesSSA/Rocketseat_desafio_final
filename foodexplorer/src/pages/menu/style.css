@@ -1,0 +1,33 @@
+.menu {
+    padding: 36px 28px 13px;
+}
+
+.wrapper {
+    margin-bottom: 36px;
+}
+
+.icon {
+    position: relative;
+}
+
+.icon>svg {
+    position: absolute;
+    top: 12px;
+    left: 14px;
+    width: 24px;
+    height: 24px;
+}
+
+input.search {
+    padding: 1rem 14px 1rem 52px;
+}
+
+.option {
+    padding: 10px;
+    border-bottom: 1px solid #192227;
+}
+
+.option>span{
+    color: #FFF;
+    font-size: 24px;
+}
